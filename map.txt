@@ -1,0 +1,27 @@
+fixed_point_predictor/
+│
+├── models/
+│   ├── __init__.py                  # Exports model classes
+│   ├── chaotic_oscillator.py        # ChaoticOscillator implementation
+│   ├── transformer_blocks.py        # TransformerAttentionBlock and ResidualBlock
+│   ├── combined_model.py            # Original CombinedModel and FixedPointModel
+│   └── enhanced_model.py            # EnhancedCombinedModel with improved performance
+│
+├── data/
+│   ├── __init__.py                  # Exports data functions
+│   ├── data_generation.py           # Functions for generating training data
+│   └── dataset.py                   # FixedPointDataset class for PyTorch
+│
+├── training/
+│   ├── __init__.py                  # Exports training functions
+│   ├── train.py                     # Implementation of train_model_enhanced
+│   ├── ensemble.py                  # ML ensemble model creation
+│   └── test_functions.py            # Functions for testing model performance
+│
+├── utils/
+│   ├── __init__.py                  # Exports utility functions
+│   ├── math_utils.py                # Mathematical utility functions
+│   └── visualization.py             # Visualization functions for Streamlit
+│
+├── app.py                           # Main Streamlit application
+└── requirements.txt                 # Project dependencies
