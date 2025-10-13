@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large data and model files
+*.pth
+*.csv
+*.txt
+
+# IDE settings folder
+.vscode/
+.idea/
